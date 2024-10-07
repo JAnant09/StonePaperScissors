@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  color: #f1faee;
+}
+
+.main {
+  /* border: 5px solid black; */
+  background-color: #75afd3;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container1 {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-size: 22px;
+}
+
+.container2 {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.optionPlayer1 {
+  /* border: 2px solid green; */
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.optionPlayer1 button {
+  border: 5px solid #f1faee;
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+  background-color: transparent;
+}
+
+.playerInfoImage {
+  height: 100px;
+  width: 100px;
+}
+
+.infoBox {
+  /* border: 4px solid black; */
+  border-radius: 10px;
+  width: 80%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.infoBox .msg {
+  font-size: 60px;
+}
+
+.infoBox .winLoose {
+  font-size: 50px;
+}
+
+.optionPlayer2 {
+  /* border: 2px solid green; */
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.optionPlayer2 button {
+  border: 5px solid #f1faee;
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+  background-color: transparent;
+}
+
+.container3 {
+  /* border: 2px solid yellow; */
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  align-items: center;
+}
+
+.statsPlayer1 {
+  /* border: 2px solid black; */
+  height: 100%;
+  width: 20%;
+}
+
+.statsPlayer2 {
+  /* border: 2px solid black; */
+  height: 100%;
+  width: 20%;
+}
